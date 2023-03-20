@@ -6,11 +6,11 @@
  */
 
 import React from 'react';
-import {StyleSheet} from 'react-native';
-
-import Route from './Src/Routes';
+import { StyleSheet } from 'react-native';
+import Route from './src/routes';
 
 function App(): JSX.Element {
+
   return <Route />;
 }
 
