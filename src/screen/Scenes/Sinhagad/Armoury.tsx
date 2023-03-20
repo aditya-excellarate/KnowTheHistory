@@ -4,14 +4,26 @@ import { StyleSheet } from 'react-native';
 
 function Armoury() {
 
-    const renderAR = props => {
+    const renderAR = (prop: any) => {
         return (
             <ViroARScene>
                 <ViroImage
-                    height={2}
-                    width={2}
-                    source={require("../../../res/maratha_headgear.jpg")}
-                    scale={[0, 2, 0]}
+                    height={5}
+                    width={5}
+                    source={require("../../../res/armoury/maratha_headgear.jpg")}
+                    scale={[4, 4, 4]}
+                    position={[-12, 0, 8]}
+                    rotation={[0, 120, 0]}
+                    imageClipMode='None'
+                />
+                <ViroImage
+                    height={5}
+                    width={5}
+                    source={require("../../../res/armoury/shield.jpeg")}
+                    scale={[4, 4, 4]}
+                    position={[0, 0, -10]}
+                    rotation={[0, 260, 0]}
+                    imageClipMode='None'
                 />
             </ViroARScene>
         );

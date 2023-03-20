@@ -17,7 +17,7 @@ function QRScanner({ navigation }: { navigation: any }) {
     setTimeout(() => {
       // FIXME: to set custom scene till QR setup is done, a default timeout is used.
       setScene(Scenes.SIN_ARMOURY);
-    }, 3000);
+    }, 1000);
   }, []);
 
   useEffect(() => {
