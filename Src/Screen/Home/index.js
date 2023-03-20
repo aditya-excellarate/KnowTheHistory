@@ -1,9 +1,14 @@
 import {StyleSheet} from 'react-native';
 import React from 'react';
 import Image360 from './Image360';
+import ScanScreen from '../../Component/scan';
+
+// const Home = () => {
+//   return <Image360 />;
+// };
 
 const Home = () => {
-  return <Image360 />;
+  return <ScanScreen />;
 };
 
 export default Home;
